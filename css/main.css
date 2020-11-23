@@ -26,7 +26,7 @@ html {
 
 p {
   font-size: 14px;
-  color: #5e629c;
+  color: #0b1633;
   line-height: 26px;
   margin-bottom: 0; }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'Paloseco', sans-serif;
   font-size: 40px;
   font-weight: 400;
-  color: #151948; }
+  color: #0b1633; }
 
 ul {
   margin: 0;
@@ -95,7 +95,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .desc-text p {
   font-size: 18px;
-  color: #5e629c;
+  color: #0b1633;
   line-height: 26px;
   margin-bottom: 0; }
 
@@ -348,8 +348,8 @@ button:focus {
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
-  background: #5533ff;
-  background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+  background: #00fab2;
+  background: linear-gradient(95deg, #00fab2 40%, #00fab2 100%);
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   z-index: 9999999; }
 
@@ -369,7 +369,7 @@ button:focus {
   color: #fff; }
 
 .menu-bg {
-  background: #5533ff;
+  background: #0b1633;
   background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
@@ -1394,7 +1394,7 @@ button:focus {
    ========================================================================== */
 #footer-Content {
   padding-top: 130px;
-  background: #180e29; }
+  background: #0b1633; }
   #footer-Content .footer-logo img {
     padding-top: 70px; }
   #footer-Content .form-control:focus {
@@ -1403,11 +1403,11 @@ button:focus {
     background: #e5fff3; }
   #footer-Content .copyright {
     margin-top: 125px;
-    border-top: 1px solid #3c1f6e;
+    border-top: 1px solid #346afe;
     padding-top: 30px;
     padding-bottom: 30px; }
     #footer-Content .copyright p {
-      color: #3ecf8e;
+      color: #00fab2;
       font-size: 18px; }
     #footer-Content .copyright a {
       color: #ddd; }
@@ -1433,7 +1433,7 @@ button:focus {
       height: 38px;
       color: #fff;
       top: 0;
-      background: #3ecf8e;
+      background: #00fab2;
       display: block;
       padding: 9px 20px;
       font-size: 18px;
@@ -1452,8 +1452,19 @@ button:focus {
     -o-transition: all 300ms;
     transition: all 300ms; }
     #footer-Content ul.menu li a:hover {
-      color: #3ecf8e;
+      color: #00fab2;
       padding-left: 5px;
       -webkit-transition: all 300ms;
       -o-transition: all 300ms;
-      transition: all 300ms; }
+      transition: all 300ms; 
+    }
+
+    /* ==========================================================================
+   Social Media icon
+   ========================================================================== */
+
+   .smed i {
+     color:#fff;
+     font-size: 35px;
+   }
+
