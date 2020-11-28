@@ -838,7 +838,7 @@ button:focus {
    Testimonial section
    ========================================================================== */
 #testimonial {
-  margin-bottom: 270px;
+  margin-bottom: 0px;
   background: url(../img/bg/testimonial-bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
