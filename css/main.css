@@ -40,11 +40,18 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
   font-family: 'Paloseco', sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: #0b1633; }
+
+  h4 {
+    font-family: 'Paloseco', sans-serif;
+    font-size: 30px;
+    font-weight: 250;
+    color: #0b1633;
+  }
 
 ul {
   margin: 0;
@@ -74,7 +81,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    Section Title
    ========================================================================== */
 .section {
-  padding: 130px 0px; }
+  padding: 70px 0px; }
 
 .form-control:focus {
   outline: none;
@@ -572,7 +579,7 @@ button:focus {
    business-plan Section 
    ========================================================================== */
 #business-plan {
-  padding-bottom: 130px; }
+  padding-bottom: 0px; }
   #business-plan .container-fluid {
     padding-right: 30px;
     padding-left: 30px; }
@@ -621,11 +628,11 @@ button:focus {
       border-radius: 50%;
       position: relative;
       margin-right: 30px;
-      border: 1px solid #3ecf8e;
+      border: 1px solid #00fab2;
       margin-top: 12px; }
       #features .feature-item .feature-icon i {
         font-size: 40px;
-        color: #3ecf8e;
+        color: #00fab2;
         position: absolute;
         left: 0;
         right: 0;
@@ -1057,10 +1064,10 @@ button:focus {
       margin: 4px;
       background: #fff; }
     #team .single-team .team-social-icons ul.social-list li:hover {
-      background: #3ecf8e;
+      background: #00fab2;
       -moz-transition: all .4s ease;
       -webkit-transition: all .4s ease;
-      border-color: #3ecf8e;
+      border-color: #00fab2;
       transition: all .4s ease; }
     #team .single-team .team-social-icons ul.social-list li:hover a {
       display: block; }
@@ -1070,7 +1077,7 @@ button:focus {
       -webkit-transition: all .4s ease;
       transition: all .4s ease; }
     #team .single-team .team-social-icons ul.social-list li a i {
-      color: #3ecf8e;
+      color: #00fab2;
       font-size: 16px; }
   #team .single-team:hover {
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
