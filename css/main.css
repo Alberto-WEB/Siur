@@ -8,7 +8,7 @@
    ========================================================================== */
 body {
   font-family: 'Paloseco';
-  src: url(../fonts/paloSeco/Paloseco-Light.ttf);
+  src: url(../fonts/Paloseco-Light.ttf);
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
@@ -48,7 +48,8 @@ h1, h2, h3, h5 {
   }
 
   h6 {
-    font-family: 'Paloseco', sans-serif;
+    font-family: 'Roboto';
+    src: url(../fonts/roboto/Roboto-Light.ttf);
     font-size: 20px;
     font-weight: 250;
     color: #0b1633;
