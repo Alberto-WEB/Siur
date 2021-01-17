@@ -1502,3 +1502,10 @@ button:focus {
     color: #00bb2d;
   }
 
+ .lni-telegram {
+    font-size: 30px;
+    text-align: center;top: 10px;
+    color: #0088cc;
+  }
+
+
