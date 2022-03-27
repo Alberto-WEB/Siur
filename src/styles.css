@@ -2,3 +2,67 @@
 
 @import url(../src/assets/fontawesome-free-6.0.0-web/css/all.css);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+
+body {
+  background-color: aliceblue;
+}
+
+/* Colors */
+/* Quedan pendientes */
+
+.txt-white {
+  color: white !important;
+}
+.bg-white {
+  background-color: white !important;
+}
+.txt-primary {
+  color: #1b262d !important;
+}
+.bg-primary {
+  background-color: #1b262d !important;
+}
+.bg-secondary {
+  background-color: #004571;
+}
+.txt-secondary {
+  color: #004571;
+}
+.bg-third {
+  background-color: #4f81a7;
+}
+.txt-third {
+  color: #4f81a7;
+}
+.bg-fourth {
+  background-color: #eeefee;
+}
+.txt-fourth {
+  color: #eeefee;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.twitter {
+    color: #55acee;
+}
+
+.instagram {
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  
+}
+
+.whatsapp {
+    color: #4dc247;
+}
