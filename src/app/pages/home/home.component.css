@@ -166,7 +166,7 @@
 }
 
 .services-list-item {
-  height: 150px;
+  height: 250px;
   padding: 10px;
   border-radius: 10px;
   background-color: white;
@@ -178,9 +178,14 @@
 }
 
 .service-options {
+  margin: auto;
   padding: 20px;
-  font-size: 50px;
+  font-size: 70px;
   color: #1c272d;
+}
+
+.col {
+  margin: 10px;
 }
 
 /* Footer */
