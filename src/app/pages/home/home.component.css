@@ -28,7 +28,7 @@
 }
 
 .video-resource {
-  object-fit: fill;
+  object-fit: cover;
   width: 100% !important;
   height: 100vh !important;
 }
@@ -193,4 +193,21 @@ footer {
   padding: 40px 0 20px 0;
   color: white;
   background-color: #1c272d;
+}
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    background-color: transparent;
+    padding: 5px;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .mq-description {
+    text-align: center;
+  }
 }
