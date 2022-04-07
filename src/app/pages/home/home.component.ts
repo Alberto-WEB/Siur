@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  _isPlaying: boolean = false;
+
+  constructor() { 
+    this.isPlayingFunc();
+  }
 
   ngOnInit(): void {
+    this.isPlayingFunc();
+  }
+
+  isPlayingFunc(){
+    setTimeout( () => {
+      this._isPlaying = true;
+      console.log(" ------------------------------------------------ ");
+    }, 700);
   }
 
 }
