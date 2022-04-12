@@ -1,47 +1,49 @@
 <!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>SIUR</title>
-  <base href="https://github.com/Alberto-WEB/Siur">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/solo-logo.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<style>@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);.fa-brands,.fa-regular,.fa-solid{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-feature-settings:normal;font-variant:normal;line-height:1;text-rendering:auto}.fa-bolt-lightning:before{content:"\e0b7"}.fa-book:before{content:"\f02d"}.fa-calculator:before{content:"\f1ec"}.fa-calendar-check:before{content:"\f274"}.fa-chart-line:before{content:"\f201"}.fa-clock:before{content:"\f017"}.fa-file-code:before{content:"\f1c9"}.fa-file-invoice-dollar:before{content:"\f571"}.fa-flag-checkered:before{content:"\f11e"}.fa-glasses:before{content:"\f530"}.fa-hand-holding-medical:before{content:"\e05c"}.fa-handshake-angle:before{content:"\f4c4"}.fa-headset:before{content:"\f590"}.fa-list-check:before{content:"\f0ae"}.fa-list-ol:before{content:"\f0cb"}.fa-receipt:before{content:"\f543"}.fa-scale-unbalanced-flip:before{content:"\f516"}.fa-thumbs-up:before{content:"\f164"}:root{--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}@font-face{font-family:Font Awesome\ 6 Brands;font-style:normal;font-weight:400;font-display:block;src:url(fa-brands-400.f77bcc98bb7468c8b15a.woff2) format("woff2"),url(fa-brands-400.0a1b701f5563c2288281.ttf) format("truetype")}.fa-brands{font-family:Font Awesome\ 6 Brands;font-weight:400}.fa-facebook-square:before{content:"\f082"}:root{--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free"}@font-face{font-family:Font Awesome\ 6 Free;font-style:normal;font-weight:400;font-display:block;src:url(fa-regular-400.d79c2ec96ab9ff1161a2.woff2) format("woff2"),url(fa-regular-400.15d98c18221c8bcb2334.ttf) format("truetype")}.fa-regular{font-family:Font Awesome\ 6 Free;font-weight:400}:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"}@font-face{font-family:Font Awesome\ 6 Free;font-style:normal;font-weight:900;font-display:block;src:url(fa-solid-900.4896d4b04430cc3dfb06.woff2) format("woff2"),url(fa-solid-900.79da213423ac0def2058.ttf) format("truetype")}.fa-solid{font-family:Font Awesome\ 6 Free;font-weight:900}@font-face{font-family:Font Awesome\ 5 Free;font-display:block;font-weight:900;src:url(fa-solid-900.4896d4b04430cc3dfb06.woff2) format("woff2"),url(fa-solid-900.79da213423ac0def2058.ttf) format("truetype")}@font-face{font-family:Font Awesome\ 5 Free;font-display:block;font-weight:400;src:url(fa-regular-400.d79c2ec96ab9ff1161a2.woff2) format("woff2"),url(fa-regular-400.15d98c18221c8bcb2334.ttf) format("truetype")}body{background-color:#f0f8ff}.txt-secondary{color:#004571}.facebook{color:#3b5998}.header-container{background-color:initial}.header-container,.video-container{width:100%!important;height:100vh!important}.video-container{position:absolute;background:url(fondo.a6988a13368a2df85545.mp4)}.absolute-container{position:absolute;width:50%;height:50%;background-color:initial;margin:calc(50% / 6) calc(50% / 2);text-align:center}.video-resource{object-fit:cover;width:100%!important;height:100vh!important;background-image:url(fondo.4fc7d0ae884eb6d4218f.gif)}.touch{font-size:30px;margin:10px}.touch:hover{cursor:pointer}.description{font-size:16px;font-weight:500}.redes-sociales{margin-bottom:0}.logo{background-color:initial;padding:5px;width:55%;margin:10px auto}.rest-of-body{padding:3% 10%;background-color:initial}.title-container{border-left:4px solid #1c272d!important;padding-left:10px}.title-container-right{text-align:right;padding-right:10px;border-right:4px solid #1c272d!important}.title{color:#1c272d;font-size:40px;font-weight:100}.description{text-align:justify;color:#1c272d;font-size:20px}.valores-title{text-align:center;color:#1c272d;font-size:25px;font-weight:100;border-right:1px solid #1c272d!important;margin:10px}.valores-description{text-align:justify;color:#1c272d;font-size:15px;padding:10px}.me{font-weight:800;color:#1c272d}.services{text-align:center}.services-title{font-size:35px;color:#1c272d;font-weight:500;margin-top:20px;margin-bottom:20px}.services-title:after,.services-title:before{font-family:"Font Awesome\ 5 Free";content:"\2a";font-weight:300}.sub-title{text-align:center;font-size:30px;color:#1c272d;font-weight:500}.third-title{font-size:20px;color:#1c272d;font-weight:300;text-align:left;margin-top:20px}.servicios-content{text-align:center}.servicios-list{margin-top:20px}.services-list-item{height:250px;padding:10px;border-radius:10px;background-color:#fff;color:#1c272d}.services-list-item:hover{border:2px solid #1c272d}.service-options{margin:auto;padding:20px;font-size:70px;color:#1c272d}.col{margin:10px}footer{padding:40px 0 20px;color:#fff;background-color:#1c272d}.img-section{width:100%;height:100%;object-fit:cover}.wdt{margin:0;height:400px}@media only screen and (max-width: 600px){.logo{background-color:initial;padding:5px;width:100%;margin:50px auto}.mq-description{text-align:center}}</style><link rel="stylesheet" href="styles.0c050dab5921f4d7d8b2.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.0c050dab5921f4d7d8b2.css"></noscript></head>
+    <meta charset="utf-8">
+    <title>SIUR</title>
+    <base href="https://github.com/Alberto-WEB/Siur">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/solo-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<style>@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);.fa-brands,.fa-regular,.fa-solid{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-feature-settings:normal;font-variant:normal;line-height:1;text-rendering:auto}.fa-bolt-lightning:before{content:"\e0b7"}.fa-book:before{content:"\f02d"}.fa-calculator:before{content:"\f1ec"}.fa-calendar-check:before{content:"\f274"}.fa-chart-line:before{content:"\f201"}.fa-clock:before{content:"\f017"}.fa-file-code:before{content:"\f1c9"}.fa-file-invoice-dollar:before{content:"\f571"}.fa-flag-checkered:before{content:"\f11e"}.fa-glasses:before{content:"\f530"}.fa-hand-holding-medical:before{content:"\e05c"}.fa-handshake-angle:before{content:"\f4c4"}.fa-headset:before{content:"\f590"}.fa-list-check:before{content:"\f0ae"}.fa-list-ol:before{content:"\f0cb"}.fa-newspaper:before{content:"\f1ea"}.fa-receipt:before{content:"\f543"}.fa-scale-unbalanced-flip:before{content:"\f516"}.fa-thumbs-up:before{content:"\f164"}:root{--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}@font-face{font-family:Font Awesome\ 6 Brands;font-style:normal;font-weight:400;font-display:block;src:url(fa-brands-400.f77bcc98bb7468c8b15a.woff2) format("woff2"),url(fa-brands-400.0a1b701f5563c2288281.ttf) format("truetype")}.fa-brands{font-family:Font Awesome\ 6 Brands;font-weight:400}.fa-facebook-square:before{content:"\f082"}:root{--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free"}@font-face{font-family:Font Awesome\ 6 Free;font-style:normal;font-weight:400;font-display:block;src:url(fa-regular-400.d79c2ec96ab9ff1161a2.woff2) format("woff2"),url(fa-regular-400.15d98c18221c8bcb2334.ttf) format("truetype")}.fa-regular{font-family:Font Awesome\ 6 Free;font-weight:400}:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"}@font-face{font-family:Font Awesome\ 6 Free;font-style:normal;font-weight:900;font-display:block;src:url(fa-solid-900.4896d4b04430cc3dfb06.woff2) format("woff2"),url(fa-solid-900.79da213423ac0def2058.ttf) format("truetype")}.fa-solid{font-family:Font Awesome\ 6 Free;font-weight:900}@font-face{font-family:Font Awesome\ 5 Free;font-display:block;font-weight:900;src:url(fa-solid-900.4896d4b04430cc3dfb06.woff2) format("woff2"),url(fa-solid-900.79da213423ac0def2058.ttf) format("truetype")}@font-face{font-family:Font Awesome\ 5 Free;font-display:block;font-weight:400;src:url(fa-regular-400.d79c2ec96ab9ff1161a2.woff2) format("woff2"),url(fa-regular-400.15d98c18221c8bcb2334.ttf) format("truetype")}body{background-color:#f0f8ff}.txt-white{color:#fff!important}.txt-secondary{color:#004571}.facebook{color:#3b5998}.header-container{background-color:initial}.header-container,.video-container{width:100%!important;height:100vh!important}.video-container{position:absolute;background:url(fondo.a6988a13368a2df85545.mp4)}.absolute-container{position:absolute;width:50%;height:50%;background-color:initial;margin:calc(50% / 6) calc(50% / 2);text-align:center}.video-resource{object-fit:cover;width:100%!important;height:100vh!important;background-image:url(fondo.4fc7d0ae884eb6d4218f.gif)}.touch{font-size:30px;margin:10px}.touch:hover{cursor:pointer}.description{font-size:16px;font-weight:500}.redes-sociales{margin-bottom:0}.logo{background-color:initial;padding:5px;width:55%;margin:10px auto}.rest-of-body{padding:3% 10%;background-color:initial}.title-container{border-left:4px solid #1c272d!important;padding-left:10px}.title-container-right{text-align:right;padding-right:10px;border-right:4px solid #1c272d!important}.title{color:#1c272d;font-size:40px;font-weight:100}.description{text-align:justify;color:#1c272d;font-size:20px}.valores-title{text-align:center;color:#1c272d;font-size:25px;font-weight:100;border-right:1px solid #1c272d!important;margin:10px}.valores-description{text-align:justify;color:#1c272d;font-size:15px;padding:10px}.me{font-weight:800;color:#1c272d}.services{text-align:center}.services-title{font-size:35px;color:#1c272d;font-weight:500;margin-top:20px;margin-bottom:20px}.services-title:after,.services-title:before{font-family:"Font Awesome\ 5 Free";content:"\2a";font-weight:300}.sub-title{text-align:center;font-size:30px;color:#1c272d;font-weight:500}.third-title{font-size:20px;color:#1c272d;font-weight:300;text-align:left;margin-top:20px}.servicios-content{text-align:center}.servicios-list{margin-top:20px}.services-list-item{height:250px;padding:10px;border-radius:10px;background-color:#fff;color:#1c272d}.services-list-item:hover{border:2px solid #1c272d}.service-options{margin:auto;padding:20px;font-size:70px;color:#1c272d}.col{margin:10px}footer{padding:40px 0 20px;color:#fff;background-color:#1c272d}.img-section{width:100%;height:100%;object-fit:cover}.wdt{margin:0;height:400px}@media only screen and (max-width: 600px){.logo{background-color:initial;padding:5px;width:100%;margin:50px auto}.mq-description{text-align:center}}.phone{font-size:22px;color:#eeefee;font-weight:800}.footer-row-container{display:flex;align-items:center;justify-content:center;text-align:center}</style><link rel="stylesheet" href="styles.7ee27017ccfdc6bf0b86.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.7ee27017ccfdc6bf0b86.css"></noscript></head>
+
 <body>
-  
-
-<div class="header-container">
-
-  <div class="video-container">
-      <video autoplay="" loop="" controls="" class="video-resource">
-          <source src="assets/videos/fondo.mp4" type="video/mp4">
-      </video>
-  </div>
-
-  <div class="absolute-container">
-
-      <div class="row text-center redes-sociales">
-          <div class="col"></div>
-          <!-- <div class="col"><i class="fa-brands fa-whatsapp-square whatsapp touch"></i> </div> -->
-          <div class="col"><a target="_blank" href="https://www.facebook.com/siursoluciones"><i class="fa-brands fa-facebook-square facebook touch"></i></a></div>
-          <div class="col"></div>
-      </div>
-
-      <div class="row text-center">
-          <img src="assets/logo-completo-siur-sin-espacio.png" alt="siur-logo" class="logo">
-      </div>
 
 
-      <div class="description txt-secondary mq-description">
-          <p>Somos una firma de servicios profesionales multidisciplinaria cuyo objetivo es crear valor y contribuir
-              al desarrollo sostenible de la sociedad, las organizaciones y las personas.</p>
-      </div>
+    <div class="header-container">
 
-  </div>
+        <div class="video-container">
+            <video autoplay="" loop="" controls="" class="video-resource">
+                <source src="assets/videos/fondo.mp4" type="video/mp4">
+            </video>
+        </div>
 
-</div>
+        <div class="absolute-container">
 
-<!-- <div class="content">
+            <div class="row text-center redes-sociales">
+                <div class="col"></div>
+                <!-- <div class="col"><i class="fa-brands fa-whatsapp-square whatsapp touch"></i></div> -->
+                <div class="col"><a target="_blank" href="https://www.facebook.com/siursoluciones"><i class="fa-brands fa-facebook-square facebook touch"></i></a></div>
+                <div class="col"></div>
+            </div>
+
+            <div class="row text-center">
+                <img src="assets/logo-completo-siur-sin-espacio.png" alt="siur-logo" class="logo">
+            </div>
+
+
+            <div class="description txt-secondary mq-description">
+                <p>Somos una firma de servicios profesionales multidisciplinaria cuyo objetivo es crear valor y
+                    contribuir
+                    al desarrollo sostenible de la sociedad, las organizaciones y las personas.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <div class="content">
   <div class="header-nav bg-primary">
       <div class="row">
           <div class="col"><a>Sobre nosotros</a></div>
@@ -54,494 +56,537 @@
   </div>
 </div> -->
 
-<div class="rest-of-body">
+    <div class="rest-of-body">
 
-  <!-- About US -->
-  <div id="about-us" class="about-us">
-      <div class="title-container">
-          <p class="title">
-              Sobre nosotros
-          </p>
-      </div>
+        <!-- About US -->
+        <div id="about-us" class="about-us">
+            <div class="title-container">
+                <p class="title">
+                    Sobre nosotros
+                </p>
+            </div>
 
-      <div class="description-container">
-          <p class="description">
-              Ofrecemos toda una gama de servicios tecnológicos y administrativos que buscan operar, de la manera más
-              eficiente y óptima, los aspectos vitales para la salud de las empresas, garantizando la búsqueda de la
-              excelencia a través de la calificación y la experiencia de nuestros equipos profesionales, implementando
-              una
-              metodología de trabajo rigurosa y eficiente.
-          </p>
-      </div>
-  </div>
+            <div class="description-container">
+                <p class="description">
+                    Ofrecemos toda una gama de servicios tecnológicos y administrativos que buscan operar, de la manera
+                    más
+                    eficiente y óptima, los aspectos vitales para la salud de las empresas, garantizando la búsqueda de
+                    la
+                    excelencia a través de la calificación y la experiencia de nuestros equipos profesionales,
+                    implementando
+                    una
+                    metodología de trabajo rigurosa y eficiente.
+                </p>
+            </div>
+        </div>
 
-  <br>
-  <br>
+        <br>
+        <br>
 
-  <!-- Mision -->
-  <div id="Mision" class="Mision">
-      <div class="title-container-right">
-          <p class="title">
-              Misión
-          </p>
-      </div>
+        <!-- Mision -->
+        <div id="Mision" class="Mision">
+            <div class="title-container-right">
+                <p class="title">
+                    Misión
+                </p>
+            </div>
 
-      <div class="description-container">
-          <p class="description">
-              Ofrecer soluciones integrales en el medio empresarial y gubernamental del país cambiando paradigmas,
-              orientadas a mejorar sus operaciones diarias con la aplicación de herramientas tecnológicas adecuadas,
-              experiencia y desarrollo constante de nuestros profesionales.
-          </p>
-      </div>
-  </div>
+            <div class="description-container">
+                <p class="description">
+                    Ofrecer soluciones integrales en el medio empresarial y gubernamental del país cambiando paradigmas,
+                    orientadas a mejorar sus operaciones diarias con la aplicación de herramientas tecnológicas
+                    adecuadas,
+                    experiencia y desarrollo constante de nuestros profesionales.
+                </p>
+            </div>
+        </div>
 
-  <br>
-  <br>
+        <br>
+        <br>
 
-  <!-- Visión -->
-  <div id="vision" class="vision">
-      <div class="title-container">
-          <p class="title">
-              Visión
-          </p>
-      </div>
+        <!-- Visión -->
+        <div id="vision" class="vision">
+            <div class="title-container">
+                <p class="title">
+                    Visión
+                </p>
+            </div>
 
-      <div class="description-container">
-          <p class="description">
-              Ser el despacho de Consultoría contable, tecnológico, fiscal, y marketing referente por su alta
-              atención, profesionalidad y constante innovación tecnológica para las MiPyMEs nacionales.
-          </p>
-      </div>
-  </div>
+            <div class="description-container">
+                <p class="description">
+                    Ser el despacho de Consultoría contable, tecnológico, fiscal, y marketing referente por su alta
+                    atención, profesionalidad y constante innovación tecnológica para las MiPyMEs nacionales.
+                </p>
+            </div>
+        </div>
 
-  <br>
-  <br>
+        <br>
+        <br>
 
-  <!-- VALORES -->
-  <div id="valores" class="valores">
-      <div class="title-container-right">
-          <p class="title">
-              Valores
-          </p>
-      </div>
+        <!-- VALORES -->
+        <div id="valores" class="valores">
+            <div class="title-container-right">
+                <p class="title">
+                    Valores
+                </p>
+            </div>
 
-      <div class="description-container">
+            <div class="description-container">
 
-          <div class="row">
+                <div class="row">
 
-              <div class="col">
-                  <div class="proximidad">
-                      <p class="valores-title">
-                          Proximidad
-                      </p>
-                      <p class="valores-description">
-                          Estamos cerca y de la mano con los clientes. Nos caracterizamos por la flexibilidad y disponibilidad permanente. Manteniéndonos con ellos un compromiso proactivo.
-                      </p>
-                  </div>
-              </div>
+                    <div class="col">
+                        <div class="proximidad">
+                            <p class="valores-title">
+                                Proximidad
+                            </p>
+                            <p class="valores-description">
+                                Estamos cerca y de la mano con los clientes. Nos caracterizamos por la flexibilidad y
+                                disponibilidad permanente. Manteniéndonos con ellos un compromiso proactivo.
+                            </p>
+                        </div>
+                    </div>
 
-              <div class="col">
-                  <p class="valores-title">
-                      Calidad
-                  </p>
-                  <p class="valores-description">
-                      Nuestra experiencia y la formación de nuestros profesionales, así como una metodología de trabajo rigurosa y eficaz, garantizamos la búsqueda de la excelencia.
-                  </p>
-              </div>
-              <div class="col">
-                  <p class="valores-title">
-                      Innovación
-                  </p>
-                  <p class="valores-description">
-                      <span class="me">SIUR</span> es una firma innovadora en la prestación de nuevos servicios, en la mejora de procesos y en la implantación de las tecnologías de vanguardia. Sabemos que el mundo está en continuo cambio y nos adaptamos a su evolución.
-                  </p>
-              </div>
-          </div>
+                    <div class="col">
+                        <p class="valores-title">
+                            Calidad
+                        </p>
+                        <p class="valores-description">
+                            Nuestra experiencia y la formación de nuestros profesionales, así como una metodología de
+                            trabajo rigurosa y eficaz, garantizamos la búsqueda de la excelencia.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="valores-title">
+                            Innovación
+                        </p>
+                        <p class="valores-description">
+                            <span class="me">SIUR</span> es una firma innovadora en la prestación de nuevos servicios,
+                            en la mejora de procesos y en la implantación de las tecnologías de vanguardia. Sabemos que
+                            el mundo está en continuo cambio y nos adaptamos a su evolución.
+                        </p>
+                    </div>
+                </div>
 
-          <br>
-          <br>
+                <br>
+                <br>
 
-          <div class="row">
-              <div class="col">
-                  <p class="valores-title">
-                      Multidisciplinariedad y especialización
-                  </p>
-                  <p class="valores-description">
-                      Sabemos de la complejidad creciente del mundo de los negocios, así como de su carácter global. Por ello, SIUR cuenta con equipos especializados en diferentes sectores económicos y tipos de organizaciones y abordamos los problemas desde una perspectiva multidisciplinar: fiscal, financiera, administrativa, tecnológica, etc.
-                  </p>
-              </div>
-              <div class="col">
-                  <p class="valores-title">
-                      Aportamos valor
-                  </p>
-                  <p class="valores-description">
-                      Los clientes demandan soluciones y aprecian el valor añadido que somos capaces de generarles.
-                  </p>
-              </div>
-              <div class="col">
-                  <p class="valores-title">
-                      Ética profesional
-                  </p>
-                  <p class="valores-description">
-                      Todas nuestras actuaciones están presididas por la objetividad, la independencia de criterio y la confidencialidad. El código de conducta representa un compromiso y garantía de la honestidad que forma parte de la cultura de <span class="me">SIUR</span>.
-                  </p>
-              </div>
-          </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="valores-title">
+                            Multidisciplinariedad y especialización
+                        </p>
+                        <p class="valores-description">
+                            Sabemos de la complejidad creciente del mundo de los negocios, así como de su carácter
+                            global. Por ello, SIUR cuenta con equipos especializados en diferentes sectores económicos y
+                            tipos de organizaciones y abordamos los problemas desde una perspectiva multidisciplinar:
+                            fiscal, financiera, administrativa, tecnológica, etc.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="valores-title">
+                            Aportamos valor
+                        </p>
+                        <p class="valores-description">
+                            Los clientes demandan soluciones y aprecian el valor añadido que somos capaces de
+                            generarles.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="valores-title">
+                            Ética profesional
+                        </p>
+                        <p class="valores-description">
+                            Todas nuestras actuaciones están presididas por la objetividad, la independencia de criterio
+                            y la confidencialidad. El código de conducta representa un compromiso y garantía de la
+                            honestidad que forma parte de la cultura de <span class="me">SIUR</span>.
+                        </p>
+                    </div>
+                </div>
 
-      </div>
-  </div>
+            </div>
+        </div>
 
-  <!-- Nuestros Servicios -->
+        <!-- Nuestros Servicios -->
 
-  <br>
-  <br>
+        <br>
+        <br>
 
-  <div class="services">
-      <div class="services-title">
-          NUESTROS SERVICIOS FISCALES
-      </div>
+        <div class="services">
+            <div class="services-title">
+                NUESTROS SERVICIOS FISCALES
+            </div>
 
-      <div class="services-container">
-          <!-- Soluciones contables -->
-          <br>
-          <div class="servicios-contables">
-              <div class="sub-title">
-                  Soluciones Contables
-              </div>
-              <br>
-              <div class="servicios-content description">
-                  Contamos con el equipo humano y tecnológico adecuado y actualizado quienes nos respaldan haciendo de Nuestra Solución contable tu mejor opción.
-              </div>
-              <div class="third-title">
-                  Nuestra Solución Contable incluye:
-              </div>
-              <div class="servicios-list">
+            <div class="services-container">
+                <!-- Soluciones contables -->
+                <br>
+                <div class="servicios-contables">
+                    <div class="sub-title">
+                        Soluciones Contables
+                    </div>
+                    <br>
+                    <div class="servicios-content description">
+                        Contamos con el equipo humano y tecnológico adecuado y actualizado quienes nos respaldan
+                        haciendo de Nuestra Solución contable tu mejor opción.
+                    </div>
+                    <div class="third-title">
+                        Nuestra Solución Contable incluye:
+                    </div>
+                    <div class="servicios-list">
 
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Registro de las Operaciones Contables de la Empresa.
-                              <i class="fa-solid fa-book service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Preparación de Estados Financieros Mensuales, Balance General, de acuerdo a las regulaciones.
-                              <i class="fa-solid fa-scale-unbalanced-flip service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Emisión de las Facturas y Complementos de Pago.
-                              <i class="fa-solid fa-file-invoice-dollar service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Asesoría.
-                              <i class="fa-solid fa-handshake-angle service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Revisión de XML.
-                              <i class="fa-solid fa-receipt service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Regularización Contable.
-                              <i class="fa-solid fa-chart-line service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-          <!-- Soluciones contables -->
-          <br>
-          <br>
-          <div class="servicios-contables">
-              <div class="sub-title">
-                  Fiscal
-              </div>
-              <br>
-              <div class="servicios-content description">
-                  Con nuestra Solución Fiscal garantizamos que las declaraciones de impuestos estarán presentadas de forma oportuna y sin ninguna multa.
-              </div>
-              <div class="third-title">
-                  Nuestro servicio Fiscal incluye:
-              </div>
-              <div class="servicios-list">
-
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Presentación de declaraciones, Anuales, Provisionales e Informativas.
-                              <i class="fa-solid fa-book service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Solicitud de Devoluciones de Impuestos a Favor.
-                              <i class="fa-solid fa-thumbs-up service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Atención en Requerimientos del SAT.
-                              <i class="fa-solid fa-headset service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Proyecciones de Resultado Fiscal.
-                              <i class="fa-solid fa-flag-checkered service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Regularización de obligaciones.
-                              <i class="fa-solid fa-chart-line service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Creación de nueva empresa.
-                              <i class="fa-solid fa-bolt-lightning service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Asesoría Fiscal.
-                              <i class="fa-solid fa-handshake-angle service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Registro de las Operaciones Contables de la Empresa.
+                                    <i class="fa-solid fa-book service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Preparación de Estados Financieros Mensuales, Balance General, de acuerdo a las
+                                    regulaciones.
+                                    <i class="fa-solid fa-scale-unbalanced-flip service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Emisión de las Facturas y Complementos de Pago.
+                                    <i class="fa-solid fa-file-invoice-dollar service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Asesoría.
+                                    <i class="fa-solid fa-handshake-angle service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Revisión de XML.
+                                    <i class="fa-solid fa-receipt service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Regularización Contable.
+                                    <i class="fa-solid fa-chart-line service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-          <!-- Nómina e IMSS -->
-          <br>
-          <br>
-          <div class="servicios-contables">
-              <div class="sub-title">
-                  Nómina e IMSS
-              </div>
-              <br>
-              <div class="servicios-content description">
-                  Somos un servicio integral, empresarial e interdisciplinario que se encarga de cada uno de tus procesos de gestión nomina en sinergia con tu empresa.
-              </div>
-              <div class="servicios-list">
+                <!-- Soluciones contables -->
+                <br>
+                <br>
+                <div class="servicios-contables">
+                    <div class="sub-title">
+                        Fiscal
+                    </div>
+                    <br>
+                    <div class="servicios-content description">
+                        Con nuestra Solución Fiscal garantizamos que las declaraciones de impuestos estarán presentadas
+                        de forma oportuna y sin ninguna multa.
+                    </div>
+                    <div class="third-title">
+                        Nuestro servicio Fiscal incluye:
+                    </div>
+                    <div class="servicios-list">
 
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Mejor Control Administrativo y Legal.
-                              <i class="fa-regular fa-clock service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Cálculo y procesamiento de nómina.
-                              <i class="fa-solid fa-calculator service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Obligaciones fiscales mensuales y anuales.
-                              <i class="fa-solid fa-glasses service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Entrega de reportes.
-                              <i class="fa-solid fa-book service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Cumplimiento de Obligaciones de Seguridad Social.
-                              <i class="fa-solid fa-list-ol service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Calculo de Prima de Riesgo.
-                              <i class="fa-solid fa-hand-holding-medical service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Recepción, captura y procesamiento de incidencias.
-                              <i class="fa-solid fa-calendar-check service-options"></i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Emisión, revisión, impresión y entrega de Comprobantes Fiscales Digitales por Internet (CFDI).
-                              <i class="fa-solid fa-file-code service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Presentación de declaraciones, Anuales, Provisionales e Informativas.
+                                    <i class="fa-solid fa-book service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Solicitud de Devoluciones de Impuestos a Favor.
+                                    <i class="fa-solid fa-thumbs-up service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Atención en Requerimientos del SAT.
+                                    <i class="fa-solid fa-headset service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Proyecciones de Resultado Fiscal.
+                                    <i class="fa-solid fa-flag-checkered service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Regularización de obligaciones.
+                                    <i class="fa-solid fa-chart-line service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Creación de nueva empresa.
+                                    <i class="fa-solid fa-bolt-lightning service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Asesoría Fiscal.
+                                    <i class="fa-solid fa-handshake-angle service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-          <!-- PLANEACION EN COMERCIO EXTERIOR -->
-          <br>
-          <br>
-          <div class="servicios-contables">
-              <div class="sub-title">
-                  Planeación en Comercio Exterior
-              </div>
-              <br>
-              <div class="servicios-content description">
-                  Nuestra planeación tiene como objetivo optimizar el pago de los impuestos y contribuciones al comercio exterior, definiendo el mejor uso y aplicación de los regímenes aduaneros, tratados de libre comercio, programas de fomento a las exportaciones etc. 
-              </div>
-              <div class="third-title">
-                  Las contribuciones que incluye nuestra planeación son:
-              </div>
-              <div class="servicios-list">
+                <!-- Nómina e IMSS -->
+                <br>
+                <br>
+                <div class="servicios-contables">
+                    <div class="sub-title">
+                        Nómina e IMSS
+                    </div>
+                    <br>
+                    <div class="servicios-content description">
+                        Somos un servicio integral, empresarial e interdisciplinario que se encarga de cada uno de tus
+                        procesos de gestión nomina en sinergia con tu empresa.
+                    </div>
+                    <div class="servicios-list">
 
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Impuesto General de Importación (IGI).
-                              <i class="service-options">IGI</i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Impuesto al Valor Agregado (IVA).
-                              <i class="service-options">IVA</i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Derecho de Trámite Aduanero.
-                              <i class="fa-solid fa-list-check service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-                  <br>
-                  <div class="row">
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Impuesto Especial Sobre Producción y Servicios (IEPS).
-                              <i class="service-options">IEPS</i>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="card services-list-item">
-                              Cuotas Compensatorias
-                              <i class="fa-solid fa-hand-holding-medical service-options"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div class="rest-of-body">
-  <div class="services">
-      <div class="services-title">
-          NUESTROS SERVICIOS TECNOLÓGICOS
-      </div>
-      <div class="services-container">
-          <div class="servicios-contables">
-              <div class="sub-title">
-                  Desarrollo de Aplicaciones Web.
-              </div>
-              <br>
-              <div class="servicios-content description">
-                  Nuestras aplicaciones web ofrecen a las empresas, gobierno y organizaciones en general una forma flexible y rentable de poder colaborar y acceder a su información en cualquier momento y en cualquier lugar.
-              </div>
-          </div>
-      </div>
-   </div>
-</div>
-
-<div class="servicios-list">
-  <div class="row">
-      <div class="col wdt">
-          <img src="assets/web.png" alt="logo" class="img-section">
-      </div>
-  </div>
-</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Mejor Control Administrativo y Legal.
+                                    <i class="fa-regular fa-clock service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Cálculo y procesamiento de nómina.
+                                    <i class="fa-solid fa-calculator service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Obligaciones fiscales mensuales y anuales.
+                                    <i class="fa-solid fa-glasses service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Entrega de reportes.
+                                    <i class="fa-solid fa-book service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Cumplimiento de Obligaciones de Seguridad Social.
+                                    <i class="fa-solid fa-list-ol service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Calculo de Prima de Riesgo.
+                                    <i class="fa-solid fa-hand-holding-medical service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Recepción, captura y procesamiento de incidencias.
+                                    <i class="fa-solid fa-calendar-check service-options"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Emisión, revisión, impresión y entrega de Comprobantes Fiscales Digitales por
+                                    Internet (CFDI).
+                                    <i class="fa-solid fa-file-code service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-<div class="rest-of-body">
-  <div class="services-container">
-      <div class="servicios-contables">
-          <div class="sub-title">
-              Desarrollo de Aplicaciones Móviles.
-          </div>
-          <br>
-          <div class="servicios-content description">
-              Nuestro equipo de desarrolladores de aplicaciones móviles puede ayudarte a aumentar tu productividad con una aplicación intuitiva, rápida, creativa, interactiva y desarrollada con las tecnologías más adecuadas según las necesidades que se deban atender a través de ella.
-          </div>
-      </div>
-  </div>
-</div>
+                <!-- PLANEACION EN COMERCIO EXTERIOR -->
+                <br>
+                <br>
+                <div class="servicios-contables">
+                    <div class="sub-title">
+                        Planeación en Comercio Exterior
+                    </div>
+                    <br>
+                    <div class="servicios-content description">
+                        Nuestra planeación tiene como objetivo optimizar el pago de los impuestos y contribuciones al
+                        comercio exterior, definiendo el mejor uso y aplicación de los regímenes aduaneros, tratados de
+                        libre comercio, programas de fomento a las exportaciones etc.
+                    </div>
+                    <div class="third-title">
+                        Las contribuciones que incluye nuestra planeación son:
+                    </div>
+                    <div class="servicios-list">
 
-<div class="servicios-list">
-  <div class="row">
-      <div class="col wdt">
-          <img src="assets/mobil.jpeg" alt="logo" class="img-section">
-      </div>
-  </div>
-</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Impuesto General de Importación (IGI).
+                                    <i class="service-options">IGI</i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Impuesto al Valor Agregado (IVA).
+                                    <i class="service-options">IVA</i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Derecho de Trámite Aduanero.
+                                    <i class="fa-solid fa-list-check service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Impuesto Especial Sobre Producción y Servicios (IEPS).
+                                    <i class="service-options">IEPS</i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card services-list-item">
+                                    Cuotas Compensatorias
+                                    <i class="fa-solid fa-hand-holding-medical service-options"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="rest-of-body">
-  <div class="services-container">
-      <div class="servicios-contables">
-          <div class="sub-title">
-              Soporte y Mantenimiento.
-          </div>
-          <br>
-          <div class="servicios-content description">
-              Brindamos mantenimiento a tus aplicaciones, para añadir nuevas funcionalidades, agregar características que mejoren el desempeño o subsanar posibles errores sin importar que las hayamos construido o no.
-          </div>
-      </div>
-  </div>
-</div>
+    <div class="rest-of-body">
+        <div class="services">
+            <div class="services-title">
+                NUESTROS SERVICIOS TECNOLÓGICOS
+            </div>
+            <div class="services-container">
+                <div class="servicios-contables">
+                    <div class="sub-title">
+                        Desarrollo de Aplicaciones Web.
+                    </div>
+                    <br>
+                    <div class="servicios-content description">
+                        Nuestras aplicaciones web ofrecen a las empresas, gobierno y organizaciones en general una forma
+                        flexible y rentable de poder colaborar y acceder a su información en cualquier momento y en
+                        cualquier lugar.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="servicios-list">
-  <div class="row">
-      <div class="col wdt">
-          <img src="assets/cogs.png" alt="logo" class="img-section">
-      </div>
-  </div>
-</div>
-
-
-<footer class="text-center">
-  <div class="col">
-      <h6>¿Tienes en mente la creación de un producto de Software? en SIUR lo hacemos posible.</h6>
-      <h6>Ponemos a tu disposición un grupo de expertos dedicados para apoyarte en todo el proceso de concepción, diseño, análisis y construcción del mismo.</h6>
-      <br>
-      <h6>Periférico nueva España 22 col. Enrique Ramírez C.P.58220 Morelia, Michoacán.</h6>
-      <br>
-      <h6>Todos los derechos reservado SIUR SOLUCIONES FISCALES Y TECNOLÓGICOS ©2022</h6>
-  </div>
-</footer>
+    <div class="servicios-list">
+        <div class="row">
+            <div class="col wdt">
+                <img src="assets/web.png" alt="logo" class="img-section">
+            </div>
+        </div>
+    </div>
 
 
-  
+    <div class="rest-of-body">
+        <div class="services-container">
+            <div class="servicios-contables">
+                <div class="sub-title">
+                    Desarrollo de Aplicaciones Móviles.
+                </div>
+                <br>
+                <div class="servicios-content description">
+                    Nuestro equipo de desarrolladores de aplicaciones móviles puede ayudarte a aumentar tu productividad
+                    con una aplicación intuitiva, rápida, creativa, interactiva y desarrollada con las tecnologías más
+                    adecuadas según las necesidades que se deban atender a través de ella.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicios-list">
+        <div class="row">
+            <div class="col wdt">
+                <img src="assets/mobil.jpeg" alt="logo" class="img-section">
+            </div>
+        </div>
+    </div>
+
+    <div class="rest-of-body">
+        <div class="services-container">
+            <div class="servicios-contables">
+                <div class="sub-title">
+                    Soporte y Mantenimiento.
+                </div>
+                <br>
+                <div class="servicios-content description">
+                    Brindamos mantenimiento a tus aplicaciones, para añadir nuevas funcionalidades, agregar
+                    características que mejoren el desempeño o subsanar posibles errores sin importar que las hayamos
+                    construido o no.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicios-list">
+        <div class="row">
+            <div class="col wdt">
+                <img src="assets/cogs.png" alt="logo" class="img-section">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-center">
+        <div class="row">
+            <h6>¿Tienes en mente la creación de un producto de Software? en SIUR lo hacemos posible.</h6>
+            <h6>Ponemos a tu disposición un grupo de expertos dedicados para apoyarte en todo el proceso de
+                concepción, diseño, análisis y construcción del mismo.</h6>
+        </div>
+        <br><br>
+        <div class="row footer-row-container">
+            <div class="col-1"></div>
+            <div class="col">
+                <h6>Ponte en contacto con nosotros usando el número de teléfono: <br> <span class="phone">(+52) 443 506
+                        6041</span></h6>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <p>Visita nuestro Blog para estar informado sobre nuestras publicaciones. <br> <span class="phone"> <a href="http://blog.siur.mx/" class="touch txt-white" target="_blank"> <i class="fa-solid fa-newspaper"></i></a></span></p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <h6>Periférico nueva España 22 col. Enrique Ramírez C.P.58220 Morelia, Michoacán.</h6>
+            <br>
+            <h6>Todos los derechos reservado SIUR SOLUCIONES FISCALES Y TECNOLÓGICOS ©2022</h6>
+        </div>
+    </footer>
+
+
+
 <script src="runtime.98585b6bf7709e490144.js" defer></script><script src="polyfills.dc419bb2a04f83ff1598.js" defer></script><script src="main.63070da9bde8e383c4f2.js" defer></script>
 
 </body></html>
