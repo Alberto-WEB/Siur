@@ -288,3 +288,16 @@ footer {
     text-align: center;
   }
 }
+
+.phone {
+  font-size: 22px;
+  color: #eeefee;
+  font-weight: 800;
+}
+
+.footer-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
